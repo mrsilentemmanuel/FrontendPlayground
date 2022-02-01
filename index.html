@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Playground</title>
+<!--
+    A) Create an index.html file.
+    B) Create a blue div, 50px by 50px that always appears perfectly in the center of the screen. (This will be the main content, so center of the screen will change when you add the next components)
+    C) Create a header/menu bar that always stays at the top of the page, has a height of 50px, spans the full width, and has a logo of your choice in the top left.
+    D) Create a footer bar that always stays at the bottom of the page, has a height of 50px, spans the full width.
+    E) Create a left navigation menu which is 100px width and spans the full height of the page.
+-->
     <style>
+        body {
+            margin: 0px;
+        }
+        
+
         .box{
             width: 50px;
             height: 50px;
@@ -15,12 +27,55 @@
             top:50%;
             transform: translate(-50%, -50%);
             }
+
+        .topnav{
+            background-color: red;
+            position: relative;
+            width: 100%;
+            height: 50px;
+        }
+
+
+        .leftnav{
+            background-color: blue;
+            position: fixed;
+            width: 15%;
+            height: 100%;
+            /* bottom: 0;
+            flex: 1; */
+
+        }
+        .empty{
+            flex: 1;
+        }
+
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
     </style>
 </head>
 
-<body>
+<body class="body-class">
     
-    <div class="box"></div>
+    <div class="topnav">
+        <img src="./img/Will & Silent.png" alt="Silent & Will Ecommerce Store Logo" width="100" height="100">
+    </div>
+
+    
+    <div class="leftnav">
+    </div>
+
+    <div class="footer">
+    <p>Footer</p>
+    </div>
+    
 
 </body>
 </html>
