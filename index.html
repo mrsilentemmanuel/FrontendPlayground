@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Playground</title>
+    <link rel="stylesheet" href="style.css">
 <!--
     A) Create an index.html file.
     B) Create a blue div, 50px by 50px that always appears perfectly in the center of the screen. (This will be the main content, so center of the screen will change when you add the next components)
@@ -12,49 +13,7 @@
     D) Create a footer bar that always stays at the bottom of the page, has a height of 50px, spans the full width.
     E) Create a left navigation menu which is 100px width and spans the full height of the page.
 -->
-    <style>
-        body {
-            margin: 0px;
-        }
-        
 
-        .box{
-            width: 50px;
-            height: 50px;
-            background-color:rgb(2, 40, 253);
-            position: absolute;
-            left:50%;
-            top:50%;
-            transform: translate(-50%, -50%);
-            }
-
-        .topnav{
-            background-color: red;
-            position: relative;
-            width: 100%;
-            height: 50px;
-        }
-
-
-        .leftnav{
-            background-color: blue;
-            position: fixed;
-            width: 100px;
-            height: 100%;
-            left: 0;
-        }
-
-        .footer{
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 50px;
-            background-color: red;
-            color: white;
-            text-align: center;
-        }
-    </style>
 </head>
 
 <body class="body-class">
