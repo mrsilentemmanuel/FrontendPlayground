@@ -12,7 +12,13 @@ body {
     transform: translate(-50%, -50%);
     }
 
-/*Top navigation */
+   /*Main Content */
+   .main-content{
+     height: 2000px;
+   }
+
+
+    /*Top navigation */
 .topnav{
     background-color: red;
     position: relative;
@@ -35,7 +41,7 @@ body {
     max-width: 250px;
     text-align: center;
     font-family: arial;
-    height: 60%;
+    height:600px;
     right: 20px;
     position: -webkit-sticky;
     position: sticky;
@@ -73,7 +79,7 @@ body {
 
 /*footer*/
 .footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
