@@ -35,9 +35,12 @@ body {
     max-width: 250px;
     text-align: center;
     font-family: arial;
-    position: absolute;
     height: 60%;
     right: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
   }
 
   .title {
